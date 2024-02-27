@@ -1,0 +1,32 @@
+GET http://localhost:4040/post
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJOYW1lIjoiQXJ1biAmIFByaXlhIFdlZHMiLCJpYXQiOjE3MDkwMjI2NTcsImV4cCI6MTcwOTAyMjY4Mn0.VvXTbXdD2p-HjydPU-XY2MLqzfcSJmPu5zqnq31FQwk
+
+###
+
+DELETE http://localhost/4040/logout
+Content-Type: application/json
+
+{
+ "token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJOYW1lIjoiQXJ1biAmIFByaXlhIFdlZHMiLCJpYXQiOjE3MDkwMjIyNTR9.UoPeTd3P43myCSsuNxQX8ExeWQCEDUkS-vUfwo9tTvs"
+}
+
+
+###
+
+POST http://localhost:4040/token
+Content-Type: application/json
+
+{
+    "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJOYW1lIjoiQXJ1biAmIFByaXlhIFdlZHMiLCJpYXQiOjE3MDkwMjIyNTR9.UoPeTd3P43myCSsuNxQX8ExeWQCEDUkS-vUfwo9tTvs"
+}
+
+###
+POST http://localhost:4040/login
+Content-Type: application/json
+
+{
+    "username":"Arun & Priya Weds"
+}
+
+
+
